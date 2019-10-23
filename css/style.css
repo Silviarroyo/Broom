@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+ @font-face{
+    font-family: 'fascinate_inline';
+    src:
+        url('../fonts/Fascinate_Inline/FascinateInline-Regular.eot'),
+        url('../fonts/Fascinate_Inline/FascinateInline-Regular.svg'),
+        url('../fonts/Fascinate_Inline/FascinateInline-Regular.ttf'),
+        url('../fonts/Fascinate_Inline/FascinateInline-Regular.woff'),
+        url('../fonts/Fascinate_Inline/FascinateInline-Regular.woff2'); 
+} 
+body{
+    background-color: antiquewhite;
+    color: darkred;
+}
+
+/***** clase div ******/
+.a{
+    font-family:'fascinate_inline';
+    color: darkred;
+}
+
+/***** B ******/
+div[title="B_izq"]{
+    position: absolute;
+    font-size: 200px;
+    top: 0;
+    left: 5%;
+}
+div[title="B_der"]{
+    position: absolute;
+    font-size: 200px;
+    top: 7px;
+    right: 5%;
+    transform: rotate(180deg);
+}
+
+/***** R ******/
+div[title="R_izq"]{
+    position: absolute;
+    font-size: 100px;
+    top: 200px;
+    left: 25%;
+    
+}
+div[title="R_der"]{
+    position: absolute;
+    font-size: 100px;
+    top: 205px;
+    right:25%;
+    transform: rotate(180deg);
+ }   
+/***** O_centro ******/
+div[title="O_centro"]{
+    width: 100%;
+    position:absolute;
+    font-size: 200px;
+    text-align: center;
+    top:230px;
+}  
+/***** O_lateral ******/
+div[title="o_izq"]{
+    position: absolute;
+    font-size: 100px;
+    bottom: 200px;
+    left: 25%;
+}
+div[title="o_der"]{
+    position: absolute;
+    font-size: 100px;
+    bottom: 175px;
+    right:25%;
+    transform: rotate(180deg);
+}
+
+/***** M ******/
+div[title="M_izq"]{
+    position: absolute;
+    font-size: 200px;
+    bottom: 7px;
+    left: 5%;
+}
+div[title="M_der"]{
+    position: absolute;
+    font-size: 200px;
+    bottom: 0;
+    right: 5%;
+    transform: rotate(180deg);
+}
+
+/***** Vol1 ******/
+div[title="vol_"]
+p:first-child{
+    position:absolute;
+    font-size: 35px;  
+    top: 70px;
+    left: 40%;
+    }
+div[title="vol_"]
+p:last-child{
+    position:absolute;
+    font-size: 100px;  
+    top: 65px;
+    right: 40%;
+    }
+
+/***** Vol2 ******/
+div[title="vol_2"]
+p:first-child{
+    position:absolute;
+    font-size: 35px;  
+    top:370px;
+    right: 20%;
+    transform: rotate(180deg);
+    }
+div[title="vol_2"]
+p:last-child{
+    position:absolute;
+    font-size: 100px;
+    top:305.5px;
+    right: 10%;
+    transform: rotate(180deg)
+    }
+
+/***** Vol3 ******/
+div[title="vol_3"]
+p:first-child{
+    position:absolute;
+    font-size: 35px;  
+    top:370px;
+    left: 20%;
+    transform: rotate(180deg);
+}
+div[title="vol_3"]
+p:last-child{
+    position:absolute;
+    font-size: 100px;
+    top:305.5px;
+    left: 10%;
+    transform: rotate(180deg)
+}
+
+/***** Vol4 ******/
+div[title="vol_4"]
+p:first-child{
+    position:absolute;
+    font-size: 35px;  
+    bottom: 175px;
+    left: 40%;
+}
+div[title="vol_4"]
+p:last-child{
+    position:absolute;
+    font-size: 100px;  
+    bottom: 110px;
+    right: 40%;
+}
